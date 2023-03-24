@@ -1,4 +1,5 @@
-## 在复制B站链接时删除其中的 spm_id_from 参数
+## 复制B站链接时自动删除其中的 spm_id_from 参数
+
 
 
 ### spm_id_from 参数
@@ -15,6 +16,15 @@
 -   安装 `python3`
 -   `pip install pyperclip`
 
-为这个 `autorun_clipboard_cleaner.bat` 创建一个快捷方式, 放到 `C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` 
+#### 开机自启
+**Windows**
+
+为这个 `autorun_clipboard_cleaner.bat` 创建一个快捷方式, 放到 `C:\Users\YOUR_USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` 
 
 也可以在文件管理器的地址栏输入 `shell:startup` 来打开这个目录
+
+#### 手动运行
+
+```bash
+python clipboard_cleaner.py
+```
