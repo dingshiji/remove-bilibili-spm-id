@@ -1,6 +1,9 @@
 ## 复制B站链接时自动删除其中的 spm_id_from 参数
 
 
+### 有一个 greasyfork 脚本也可以做到, 并且比这里的解决方式更好
+[Bilibili 干净链接](https://greasyfork.org/zh-CN/scripts/393995-bilibili-%E5%B9%B2%E5%87%80%E9%93%BE%E6%8E%A5)
+
 
 ### spm_id_from 参数
 
